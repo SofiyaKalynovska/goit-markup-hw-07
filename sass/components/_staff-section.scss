@@ -1,0 +1,11 @@
+.staff {
+  background-color: $third-bgc;
+  padding: 94px 0;
+
+    &__list {
+      display: flex;
+      text-align: center;
+
+      background-color: $third-bgc;
+    }
+}

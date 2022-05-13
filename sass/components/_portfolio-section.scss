@@ -1,0 +1,20 @@
+.portfolio {
+  padding: 94px 0;
+  border: 1px solid #eeeeee;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-right: -8px;
+  margin-bottom: 50px;
+
+    &__item:not(:last-child) {
+      margin-right: 8px;
+    }
+}
